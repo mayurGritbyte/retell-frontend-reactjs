@@ -54,7 +54,7 @@
     box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.3);
   }
   50% {
-    box-shadow: 0 0 40px 20px rgba(0, 255, 0, 0.3);
+    box-shadow: 0 0 60px 30px rgba(0, 255, 0, 0.3);
   }
 }
 
@@ -75,5 +75,5 @@
 
 .portrait-container.active.agent-speaking::before {
   opacity: 1;
-  animation: pulse 3s infinite ease-in-out;
+  animation: pulse 2.5s infinite ease-in-out;
 }
