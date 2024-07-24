@@ -18,8 +18,22 @@ using React and Node.js. It showcases using **the [JS Client SDK](https://github
 4. Tweak the CSS to your liking
 5. Deploy
 
-## Example iFrame embedded in our homepage
+## iFrame embedded in our homepage
 
 https://www.fullyinformedconversations.org
+
+#### Sample iFrame HTML for Squarespace code block
+```
+<div id="Agent Name"></div>
+<style>
+  iframe {
+    border: none;
+    width: 100%;
+    height: 400px;
+    border-radius: 100px;
+  }
+</style>
+<iframe src="https://retell.fullyinformedconversations.org/" allow="microphone" title="Agent Name"></iframe>
+```
 
 ![Screenshot 2024-07-23 at 10 08 32 PM](https://github.com/user-attachments/assets/a710f917-6764-4029-9e11-e091ce4cc72c)
