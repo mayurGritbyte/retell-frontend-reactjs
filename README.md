@@ -12,7 +12,11 @@ using React and Node.js. It showcases using **the [JS Client SDK](https://github
 
 ## Setup Tutorial
 
-Clone into your own Vercel project, configure environmental variable REACT_APP_RETELL_AGENTID, customize agent name and portrait, and deploy.
+1. Clone into your own Vercel project
+2. Configure environmental variables: RETELL_API (your Retell API Key), RETELL_SAMPLE_RATE (default 48000), and REACT_APP_RETELL_AGENTID (Agent ID for your Retell Agent)
+3. Customize agent portrait image in code
+4. Tweak the CSS to your liking
+5. Deploy
 
 ## Example iFrame embedded in our homepage
 
